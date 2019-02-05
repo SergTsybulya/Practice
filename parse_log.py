@@ -3,9 +3,9 @@ status_logs =  [
                 ['192.168.0.50', 'Ok'], ['192.168.0.51', 'Bad'], ['192.168.0.52', 'Ok'], ['192.168.0.53', 'Bad'],['192.168.0.54', 'Ok']
             ]
 username_logs = [
-                ['192.168.0.50', 'Vasya'], ['192.168.0.51', 'Vasya'], ['192.168.0.52', 'Petya'], ['192.168.0.53', 'Kolya'], ['192.168.0.54', 'Vasya']
+                ['192.168.0.50', 'Vasya'], ['192.168.0.51', 'Evgen'], ['192.168.0.52', 'Petya'], ['192.168.0.53', 'Kolya'], ['192.168.0.54', 'Andrey']
             ],
-status_reason = {'Bad': 'GoAway', 'Ok': 'Work'}
+status_reason = {'Bad': 'Shutdown', 'Ok': 'Work'}
 final_logs=[]
 ip_logs_ok= []
 ip_logs_bad= []
