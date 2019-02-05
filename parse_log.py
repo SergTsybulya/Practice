@@ -5,7 +5,7 @@ status_logs =  [
 username_logs = [
                 ['192.168.0.50', 'Vasya'], ['192.168.0.51', 'Vasya'], ['192.168.0.52', 'Petya'], ['192.168.0.53', 'Kolya'], ['192.168.0.54', 'Vasya']
             ],
-status_reason = {'Bad': 'Porno', 'Ok': 'Work'}
+status_reason = {'Bad': 'GoAway', 'Ok': 'Work'}
 final_logs=[]
 ip_logs_ok= []
 ip_logs_bad= []
