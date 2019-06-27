@@ -92,7 +92,7 @@ if __name__ == '__main__':
                 help()
             if command in exit_command:
                 print('Завершение программы...')
-                print(colored('Прощай кожанный ублюдок', "red"))
+                print(colored('Прощай человек', "red"))
                 loading()
                 break
             if re.match(pattern, command) is not None:
@@ -105,7 +105,7 @@ if __name__ == '__main__':
             print(colored('\nДеление на 0!', 'red'))
             continue
         except NameError:
-            print(colored('Что-то пошло не так. Я умираю из-за тебя, мешок с костями..', "red"))
+            print(colored('Что-то пошло не так. Я умираю из-за тебя, человек..', "red"))
             break
         except Exception as error:
             print(colored(f'\nНеизвестная ошибка: {error}', "red"))
